@@ -96,5 +96,45 @@ header {
 .navbar-icons li a {
     font-size: 27px;
     font-weight: 500;
+}
 
+/* Hero Section Style */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.hero-content {
+    width: 40%;
+}
+
+.hero-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero-para {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0px;
+}
+
+.hero-btn {
+    border-radius: 25px;
+}
+
+.hero-img {
+    width: 30%;
+    background-image: url("../images/hero-circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-img img {
+    width: 100%;
 }
