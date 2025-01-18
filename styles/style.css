@@ -266,3 +266,44 @@ header {
     line-height: 28px;
     margin: 16px 0px;
 }
+
+/* Footer Section Style */
+footer {
+    padding: 50px 0px;
+    background: #0A0826;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content .logo {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #5E6366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link a {
+    color: #fff;
+    font-size: 28px;
+}
