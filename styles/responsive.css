@@ -47,6 +47,10 @@
     .hero-img {
         background-size: cover;
     }
+
+    .sponsors-section {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -69,6 +73,10 @@
         font-size: 45px;
         line-height: 60px;
     }
+    
+    .sponsors-section {
+        width: 100%;
+    }
 
     
 }
@@ -86,6 +94,10 @@
     .hero-img {
         width: 70%;
     }
+    
+    .sponsors-section {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1280px) {
@@ -100,5 +112,9 @@
 
     .hero-img {
         width: 50%;
+    }
+
+    .sponsors-section {
+        width: 100%;
     }
 }
