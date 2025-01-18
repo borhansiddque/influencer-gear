@@ -230,3 +230,39 @@ header {
     font-size: 16px;
     font-weight: 700;
 }
+
+/* Featured Product Section */
+
+.featured-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px 0px;
+}
+
+.featured-product-img {
+    width: 30%;
+}
+
+.featured-product-img img {
+    width: 100%;
+}
+
+.featured-product-content {
+    width: 40%;
+}
+
+.featured-product-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.featured-product-desc {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 16px 0px;
+}
